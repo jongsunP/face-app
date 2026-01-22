@@ -391,7 +391,7 @@ function Home() {
     <>
       <Container>
         <LogoArea>
-          <LogoImage src="/logo.png" alt="응니얼굴" />
+          <LogoImage src={`${import.meta.env.BASE_URL}logo.png`} alt="응니얼굴" />
         </LogoArea>
 
         <InfoCard>
