@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jongsunP.github.io/vibe2",
+  "homepage": "https://jongsunP.github.io/face-app",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

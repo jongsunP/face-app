@@ -5,8 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // GitHub Pages 배포를 위한 base 경로 설정
-  // 리포지토리 이름으로 변경하세요 (예: /your-repo-name/)
-  base: '/vibe2/',
+  base: '/face-app/',
   server: {
     host: true,
   },
