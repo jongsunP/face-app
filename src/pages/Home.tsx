@@ -56,16 +56,6 @@ const glow = keyframes`
   }
 `
 
-const shimmer = keyframes`
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
-`
-
-const pulse = keyframes`
-  0%, 100% { box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.4); }
-  50% { box-shadow: 0 0 0 10px rgba(139, 92, 246, 0); }
-`
-
 const Container = styled.div`
   flex: 1;
   display: flex;
@@ -282,7 +272,7 @@ const GenderButton = styled.button<{ $selected: boolean; $gender: 'female' | 'ma
         : 'linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)'
       : 'rgba(255, 255, 255, 0.1)'};
   color: ${({ $selected }) => ($selected ? '#fff' : 'rgba(255, 255, 255, 0.7)')};
-  border: 2px solid ${({ $selected, $gender }) =>
+  border: 2px solid ${({ $selected }) =>
     $selected
       ? 'transparent'
       : 'rgba(255, 255, 255, 0.2)'};

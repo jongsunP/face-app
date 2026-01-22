@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/bottomcta.tsx","./src/components/cameramodal.tsx","./src/lib/analyze.ts","./src/lib/storage.ts","./src/pages/home.tsx","./src/pages/loading.tsx","./src/pages/result.tsx","./src/styles/globalstyle.ts"],"version":"5.6.3"}

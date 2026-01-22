@@ -75,24 +75,6 @@ const Container = styled.div`
   min-height: 100vh;
 `
 
-const MainImage = styled.div`
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
-  border-radius: 20px;
-  overflow: hidden;
-  margin-bottom: 24px;
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  animation: ${fadeInUp} 0.6s ease-out;
-`
-
-const MainImageImg = styled.img`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-`
-
 const SharedBanner = styled.div`
   background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 50%, #3b82f6 100%);
   color: #fff;
@@ -378,21 +360,6 @@ const ClothName = styled.p`
 const ClothDesc = styled.p`
   font-size: 12px;
   color: rgba(255, 255, 255, 0.6);
-`
-
-const LinkText = styled.a`
-  display: block;
-  font-size: 14px;
-  color: #a5b4fc;
-  margin-top: 14px;
-  text-decoration: none;
-  font-weight: 500;
-  transition: all 0.2s ease;
-
-  &:hover {
-    color: #c4b5fd;
-    text-decoration: underline;
-  }
 `
 
 const effectPulse = keyframes`
